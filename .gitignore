@@ -4,3 +4,7 @@ images/pic06.jpg
 .vscode/settings.json
 images/pic01.jpg
 
+# project files
+.vscode/
+.assets/js/
+*.iml
