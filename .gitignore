@@ -9,3 +9,12 @@ images/pic01.jpg
 .assets/js/
 *.iml
 assets/css/images/korea.png
+assets/css/fontawesome-all.min.css
+assets/sass/libs/_breakpoints.scss
+assets/sass/libs/_functions.scss
+assets/sass/libs/_html-grid.scss
+assets/sass/libs/_mixins.scss
+assets/sass/libs/_vars.scss
+assets/sass/libs/_vendor.scss
+assets/sass/main.scss
+assets/sass/noscript.scss
