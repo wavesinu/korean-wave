@@ -2964,7 +2964,7 @@ button:disabled,
 }
 
 .main.style2 header.major:after {
-	/* background: #ffffff; */
+	background: #ffffff;
 }
 
 .main.style2 input[type="submit"],
@@ -3438,9 +3438,7 @@ body.is-preload #header:after {
 
 }
 
-/* Medium */
-
-@media screen and (max-width: 980px) {
+Medium @media screen and (max-width: 980px) {
 
 	/* List */
 
@@ -3483,174 +3481,4 @@ body.is-preload #header:after {
 	#two {
 		text-align: center;
 	}
-
-}
-
-/* Small */
-
-@media screen and (max-width: 736px) {
-
-	/* Basic */
-
-	body,
-	input,
-	select,
-	textarea {
-		font-size: 12pt;
-	}
-
-	h1 {
-		font-size: 1.75em;
-	}
-
-	h2 {
-		font-size: 1.5em;
-	}
-
-	h3 {
-		font-size: 1.1em;
-	}
-
-	h4 {
-		font-size: 1em;
-	}
-
-	/* List */
-
-	ul.major-icons li {
-		padding: 1.5em;
-	}
-
-	ul.major-icons li .icon {
-		height: 5em;
-		line-height: 5em;
-		width: 5em;
-	}
-
-	ul.major-icons li .icon:before {
-		font-size: 42px;
-	}
-
-	/* Icon */
-
-	.icon.major {
-		margin: 0 0 1em 0;
-	}
-
-	/* Button */
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
-		height: 3em;
-		line-height: 3em;
-	}
-
-	/* Main */
-
-	.main {
-		padding: 3em 1.5em 1em 1.5em;
-	}
-
-	/* Header */
-
-	#header {
-		padding: 4em 3em 4em 3em;
-	}
-
-	#header .actions {
-		margin: 2em 0 0 0;
-	}
-
-	/* Footer */
-
-	#footer {
-		padding: 3em 1.5em 3em 1.5em;
-	}
-
-}
-
-/* XSmall */
-
-@media screen and (max-width: 480px) {
-
-	/* Button */
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button {
-		padding: 0;
-	}
-
-	/* Main */
-
-	.main {
-		padding: 2em 1.5em 0.1em 1.5em;
-	}
-
-	/* Header */
-
-	#header {
-		padding: 4em 2em 4em 2em;
-	}
-
-	#header br {
-		display: none;
-	}
-
-	/* Footer */
-
-	#footer {
-		padding: 2em 1.5em 2em 1.5em;
-	}
-
-	#footer .copyright {
-		margin: 1.5em 0 0 0;
-	}
-
-	#footer .copyright li {
-		border: 0;
-		display: block;
-		margin: 1em 0 0 0;
-		padding: 0;
-	}
-
-	#footer .copyright li:first-child {
-		margin-top: 0;
-	}
-
-}
-
-/* XXSmall */
-
-@media screen and (max-width: 320px) {
-
-	/* Basic */
-
-	html,
-	body {
-		min-width: 320px;
-	}
-
-	/* Main */
-
-	.main {
-		padding: 2em 1em 0.1em 1em;
-	}
-
-	/* Header */
-
-	#header {
-		padding: 3em 1em 3em 1em;
-	}
-
-	/* Footer */
-
-	#footer {
-		padding: 2em 1em 2em 1em;
-	}
-
 }
